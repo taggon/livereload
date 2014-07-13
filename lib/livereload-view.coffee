@@ -4,16 +4,16 @@ livereload = require 'livereload'
 defaultPort = 35729
 
 module.exports =
-class AtomLivereloadView extends View
+class LivereloadView extends View
   server: null # livereload server
   port: defaultPort
 
   @content: ->
-    @div class: 'status-stats inline-block atom-livereload', =>
+    @div class: 'status-stats inline-block livereload', =>
       @a ''
 
   initialize: (serializeState) ->
-    atom.workspaceView.command 'atom-livereload:toggle', => @toggle()
+    atom.workspaceView.command 'livereload:toggle', => @toggle()
     @attach()
 
   # Returns an object that can be retrieved when package is activated
@@ -52,6 +52,9 @@ class AtomLivereloadView extends View
         @find('a')
           .text("LiveReload: #{@port}")
           .attr('href', "http://localhost:#{@port}/livereload.js")
+
+    if path = atom.project.getPath()
+      @server.watch path
 
   closeServer: ->
     try

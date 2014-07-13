@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Toggle LiveReload': 'atom-livereload:toggle'
+      'Toggle LiveReload': 'livereload:toggle'
 
 'menu': [
   {
@@ -9,7 +9,7 @@
     'submenu': [
       'label': 'LiveReload'
       'submenu': [
-        { 'label': 'Toggle Server', 'command': 'atom-livereload:toggle' }
+        { 'label': 'Toggle Server', 'command': 'livereload:toggle' }
       ]
     ]
   }
