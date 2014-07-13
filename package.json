@@ -1,18 +1,20 @@
 {
   "name": "livereload",
   "main": "./lib/livereload",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "LiveReload plugin for Atom",
-  "activationEvents": [ "livereload:toggle" ],
+  "activationEvents": [
+    "livereload:toggle"
+  ],
   "repository": "https://github.com/taggon/livereload",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "contributors" : [
+  "contributors": [
     "Taegon Kim <iam@taegon.kim>"
   ],
   "dependencies": {
-    "livereload" : "0.3.4"
+    "livereload": "0.3.4"
   }
 }
