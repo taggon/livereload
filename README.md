@@ -18,5 +18,8 @@ An [Atom](https://atom.io/) package enables you to control built-in [LiveReload]
 * Reloads web pages when any file is saved.
 * Applies changes without reloading when any CSS or image changed.
 
+## Todo
+* Support preprocessors.
+
 ## License
 MIT
