@@ -7,5 +7,8 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace':
-  'cmd-shift-l': 'livereload:toggle'
+
+'.platform-darwin':
+  'ctrl-shift-R': 'livereload:toggle'
+'.platform-win32':
+  'ctrl-shift-R': 'livereload:toggle'
