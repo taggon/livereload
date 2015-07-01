@@ -1,5 +1,5 @@
 {
-  "name": "-rename",
+  "name": "livereload",
   "main": "./lib/livereload",
   "version": "0.3.0",
   "description": "Livereload plugin for Atom",
