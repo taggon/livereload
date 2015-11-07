@@ -26,7 +26,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "livereload": "git@github.com:napcs/node-livereload#0.4.0",
+    "livereload": "^0.4.0",
     "lodash": "^3.10.0"
   },
   "homepage": "https://github.com/taggon/livereload",
