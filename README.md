@@ -15,11 +15,16 @@ An [Atom](https://atom.io/) package enables you to control built-in [LiveReload]
 4. Put the script into the bottom of documents you want to give power of live reloading.
 
 ## Features
-* Reloads web pages when any file is saved.
+* Reloads web pages when any file is created, removed or modified.
 * Applies changes without reloading when any CSS or image changed.
 * Works well with [Chrome LiveReload extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).
 
+## Notes
+* The chrome extension works only with default port 35729.
+* Too many files can make this horribly slow. To avoid this please exclude directories which have many files such as `node_modules`.
+
 ## Todo
+* Setting per project.
 * Support preprocessors.
 
 ## License
