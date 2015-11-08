@@ -16,12 +16,6 @@
     "type": "string",
     "default": ".DS_Store, .gitignore, .git/, .svn/, .hg/"
   },
-  "applyJSLive": {
-    "title": "Apply JavaScript Live",
-    "type": "boolean",
-    "description": "If checked, LiveReload will reload JS files in the background instead of reloading the page.",
-    "default": false
-  },
   "applyCSSLive": {
     "title": "Apply CSS Live",
     "type": "boolean",
