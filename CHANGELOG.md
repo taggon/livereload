@@ -1,3 +1,7 @@
+## 0.4.3
+* Add Image Live option.
+* Remove JS Live option.
+
 ## 0.4.0
 * Add an option for delay before refreshing web page.
 
