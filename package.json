@@ -26,8 +26,10 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "livereload": "^0.4.0",
-    "lodash": "^3.10.0"
+    "lodash": "^3.10.0",
+    "chokidar": "^1.2.0",
+    "faye-websocket": "^0.10.0",
+    "livereload-js": "^2.2.2"
   },
   "homepage": "https://github.com/taggon/livereload",
   "bugs": {
