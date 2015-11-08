@@ -19,8 +19,14 @@
   "applyCSSLive": {
     "title": "Apply CSS Live",
     "type": "boolean",
-    "description": "If checked, LiveReload will reload CSS files in the background instead of refreshing the page.",
+    "description": "If checked, LiveReload will reload CSS files without refreshing the page.",
     "default": true
+  },
+  "applyImageLive": {
+    "title": "Apply Image Live",
+    "type": "boolean",
+    "description": "If checked, LiveReload will reload image files without refreshing the page.",
+    "default": false
   },
   "useHTTPS": {
     "title": "Use HTTPS Protocol",
@@ -34,4 +40,3 @@
     "default": 0
   }
 }
-
