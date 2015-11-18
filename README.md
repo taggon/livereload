@@ -21,7 +21,7 @@ An [Atom](https://atom.io/) package enables you to control built-in [LiveReload]
 
 ## Notes
 * The chrome extension works only with default port 35729.
-* Too many files can make this horribly slow. To avoid this please exclude directories which have many files such as `node_modules`.
+* Watching too many files can make this horribly slow. To avoid this please exclude directories which have many files such as `node_modules`.
 
 ## Todo
 * Setting per project.
