@@ -1,5 +1,7 @@
 # LiveReload for Atom
 
+[![Build Status](https://travis-ci.org/taggon/livereload.svg)](https://travis-ci.org/taggon/livereload)
+
 An [Atom](https://atom.io/) package enables you to control built-in [LiveReload](http://livereload.com/) server.
 > LiveReload monitors changes in the file system. As soon as you save a file, it is preprocessed as needed, and the browser is refreshed.
 >
