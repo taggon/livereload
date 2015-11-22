@@ -1,6 +1,7 @@
 {
   "port": {
     "title": "Port Number",
+    "description": "If the port is not available, the server will find and listen any available port.",
     "type": "integer",
     "default": 35729
   },
@@ -38,5 +39,11 @@
     "type": "number",
     "description": "When the number is more than 0, the server add a delay before forcing browser to refresh.",
     "default": 0
+  },
+  "autoStart": {
+    "title": "Auto Start Server",
+    "type": "boolean",
+    "description": "If checked, the livereload server will automatically start whenever new Atom window is opened.",
+    "default": false
   }
 }

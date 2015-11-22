@@ -1,7 +1,7 @@
 {
   "name": "livereload",
   "main": "./lib/livereload",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Livereload plugin for Atom",
   "keywords": [
     "livereload",
@@ -10,9 +10,6 @@
   "contributors": [
     "Taegon Kim <gonom9@gmail.com>"
   ],
-  "activationCommands": {
-    "atom-workspace": "livereload:toggle"
-  },
   "consumedServices": {
     "status-bar": {
       "versions": {
