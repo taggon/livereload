@@ -9,7 +9,7 @@
     "title": "Additional Extensions",
     "description": "The server will watch these comma-separated extensions as well as the defaults.",
     "type": "string",
-    "default": "html, css, js, png, gif, jpg, php, php5, py, rb, erb, coffee"
+    "default": "html, htm, css, js, png, gif, jpg, php, php5, py, rb, erb, coffee"
   },
   "exclusions": {
     "title": "Additional Exclusions",
