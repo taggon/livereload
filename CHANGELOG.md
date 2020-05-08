@@ -1,3 +1,6 @@
+## 0.4.5
+* Add option to customize status bar text.
+
 ## 0.4.3
 * Add Image Live option.
 * Remove JS Live option.
