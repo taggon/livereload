@@ -45,5 +45,18 @@
     "type": "boolean",
     "description": "If checked, the livereload server will automatically start whenever new Atom window is opened.",
     "default": false
+  },
+  "customization": {
+    "title": "Customization",
+    "type": "object",
+    "collapsed": true,
+    "properties": {
+      "statusBarText": {
+        "title": "Status Bar Text",
+        "description": "Change the default text shown in the status bar.",
+        "type": "string",
+        "default": "LiveReload: "
+      }
+    }
   }
 }
